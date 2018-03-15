@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<div th:insert="{ self/header :: nav}"></div>
+<div>
+    自己的东西！！
+</div>
+</body>
+<script>
+    $(function(){
+        if($("#self").html()){
+            $("#logon").hide();
+        }else{
+            $("#self").hide();
+        }
+        $("#logon").click(function(){
+            openDialog("/blog/self/logon", "600px", "400px");
+        });
+        $("#info").click(function(){
+            openURL("/blog/self/logon");
+        });
+
+       $(".depart").click(function(e){
+           var ss = e.target;
+           var data = e.target.text;
+           console.log(ss);
+           console.log(data)
+           console.log(e);
+       });
+
+    });
+</script>
+</html>

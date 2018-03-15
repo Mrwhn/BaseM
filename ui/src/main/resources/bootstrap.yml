@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: ui
+  profiles:
+    active: dev
+  http:
+    encoding: utf-8
+
+eureka:
+  instance:
+    non-secure-port: ${server.port:80}
+  client:
+    service-url:
+      defaultZone: http://${eureka.host:localhost}:${eureka.port:8761}/eureka/

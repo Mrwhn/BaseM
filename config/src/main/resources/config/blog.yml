@@ -1,0 +1,5 @@
+datasource:
+  url: jdbc:mysql://localhost:3308/wuhuinan?characterEncoding=utf8&useSSL=true
+  username: root
+  password: wuhuinan
+  driverClassName: com.mysql.jdbc.Driver

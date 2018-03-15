@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <meta charset="UTF-8"/>
+    <title>Info</title>
+    <script th:src="@{/jquery-3.2.1/jquery-3.2.1.min.js}"></script>
+    <script th:src="@{/bootstrap/js/bootstrap.min.js}"></script>
+    <link th:href="@{/bootstrap/css/bootstrap.min.css}" rel="stylesheet"/>
+    <link th:href="@{/bootstrap/css/bootstrap-theme.min.css}" rel="stylesheet"/>
+    <script th:src="@{/common/common.js}"></script>
+</head>
+<body>
+<div th:fragment="navs">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header col-md-2 col-lg-2">
+                <a id="info" class="navbar-brand" href="#" th:text="一只鱼的记忆"></a>
+            </div>
+            <div class="col-md-9 col-lg-9">
+                <ul class="nav navbar-nav">
+                    <li th:each="book:${bookList}">
+                        <a href="#" th:text="${book}" class="depart"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer col-md-1 col-lg-1" >
+                <a  class="btn btn-link" href="#" id="logon">登陆</a>
+                <button class="btn btn-link" th:text="${info.username}" id="self"></button>
+            </div>
+        </div>
+    </nav>
+</div>
+</body>
+<script>
+    $(function(){
+        if($("#self").html()){
+            $("#logon").hide();
+        }else{
+            $("#self").hide();
+        }
+        $("#logon").click(function(){
+            openDialog("/blog/self/logon", "600px", "400px");
+        });
+        $("#info").click(function(){
+            openURL("/blog/self/logon");
+        });
+
+       $(".depart").click(function(e){
+           var ss = e.target;
+           var data = e.target.text;
+           console.log(ss);
+           console.log(data)
+           console.log(e);
+       });
+
+    });
+</script>
+</html>

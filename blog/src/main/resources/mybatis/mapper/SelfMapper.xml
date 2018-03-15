@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hnwu.blog.self.mapper.SelfMapper">
+    <resultMap id="SelfMap" type="com.hnwu.blog.self.entity.SelfInfo">
+        <id column="id" property="id" />
+        <result column="username" property="username" />
+        <result column="password" property="password" />
+    </resultMap>
+    <sql id="base_column" >
+        id,username,password
+    </sql>
+    <select id="getSelf" resultMap="SelfMap" parameterType="Integer">
+        <![CDATA[
+        SELECT * from t_user WHERE id=#{id}
+        ]]>
+    </select>
+</mapper>

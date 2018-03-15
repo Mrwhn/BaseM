@@ -1,0 +1,61 @@
+Manifest-Version: 1.0
+Class-Path: spring-boot-autoconfigure-1.4.0.RELEASE.jar stax-api-1.0-2
+ .jar httpclient-4.5.2.jar netty-transport-native-epoll-4.0.27.Final.j
+ ar joda-time-2.9.4.jar spring-web-4.3.2.RELEASE.jar validation-api-1.
+ 1.0.Final.jar spring-cloud-context-1.1.6.RELEASE.jar thymeleaf-layout
+ -dialect-1.4.0.jar tomcat-embed-websocket-8.5.4.jar commons-configura
+ tion-1.8.jar netflix-commons-util-0.1.1.jar archaius-core-0.7.4.jar n
+ etflix-statistics-0.1.1.jar feign-slf4j-9.3.1.jar spring-boot-starter
+ -actuator-1.4.0.RELEASE.jar ribbon-transport-2.2.0.jar netflix-infix-
+ 0.3.0.jar guice-grapher-4.0.jar asm-5.0.4.jar netty-codec-4.0.27.Fina
+ l.jar rxnetty-contexts-0.4.9.jar spring-cloud-netflix-eureka-client-1
+ .2.3.RELEASE.jar guice-assistedinject-4.0.jar spring-context-4.3.2.RE
+ LEASE.jar netty-buffer-4.0.27.Final.jar jquery-2.1.1.jar javax.inject
+ -1.jar tomcat-embed-core-8.5.4.jar jsr311-api-1.1.1.jar hibernate-val
+ idator-5.2.4.Final.jar log4j-over-slf4j-1.7.21.jar feign-core-9.3.1.j
+ ar commons-codec-1.10.jar gson-2.7.jar jersey-apache-client4-1.19.1.j
+ ar classmate-1.3.1.jar spring-security-crypto-4.1.1.RELEASE.jar sprin
+ g-cloud-starter-zuul-1.2.3.RELEASE.jar hystrix-serialization-1.5.6.ja
+ r netty-codec-http-4.0.27.Final.jar jersey-core-1.19.1.jar spring-boo
+ t-starter-web-1.4.0.RELEASE.jar stax2-api-3.1.4.jar spring-boot-start
+ er-aop-1.4.0.RELEASE.jar servo-internal-0.10.1.jar jackson-databind-2
+ .8.1.jar spring-beans-4.3.2.RELEASE.jar thymeleaf-2.1.5.RELEASE.jar s
+ pring-cloud-starter-1.1.6.RELEASE.jar rxnetty-servo-0.4.9.jar ribbon-
+ eureka-2.2.0.jar spring-cloud-commons-1.1.6.RELEASE.jar feign-hystrix
+ -9.3.1.jar spring-webmvc-4.3.2.RELEASE.jar xpp3_min-1.1.4c.jar netty-
+ transport-4.0.27.Final.jar governator-core-1.12.10.jar logback-core-1
+ .1.7.jar eureka-client-1.4.12.jar logback-classic-1.1.7.jar spring-cl
+ oud-starter-ribbon-1.2.3.RELEASE.jar httpcore-4.4.5.jar jboss-logging
+ -3.3.0.Final.jar guice-4.0.jar thymeleaf-spring4-2.1.5.RELEASE.jar sp
+ ring-retry-1.1.3.RELEASE.jar spring-boot-starter-thymeleaf-1.4.0.RELE
+ ASE.jar bcprov-jdk15on-1.55.jar spring-boot-1.4.0.RELEASE.jar spring-
+ cloud-starter-eureka-1.2.3.RELEASE.jar hystrix-core-1.5.6.jar spring-
+ cloud-config-client-1.2.2.RELEASE.jar governator-api-1.12.10.jar spri
+ ng-boot-starter-logging-1.4.0.RELEASE.jar hystrix-javanica-1.5.6.jar 
+ ribbon-loadbalancer-2.2.0.jar spring-core-4.3.2.RELEASE.jar aopallian
+ ce-1.0.jar spring-cloud-starter-hystrix-1.2.3.RELEASE.jar jul-to-slf4
+ j-1.7.21.jar spring-boot-starter-tomcat-1.4.0.RELEASE.jar bcpkix-jdk1
+ 5on-1.55.jar bootstrap-3.2.0.jar xmlpull-1.1.3.1.jar netflix-eventbus
+ -0.3.0.jar jersey-client-1.19.1.jar spring-expression-4.3.2.RELEASE.j
+ ar guava-18.0.jar HdrHistogram-2.1.9.jar ognl-3.0.8.jar guice-multibi
+ ndings-4.0.jar antlr-2.7.7.jar groovy-2.4.7.jar angular-ui-router-0.2
+ .13.jar spring-cloud-netflix-core-1.2.3.RELEASE.jar netty-common-4.0.
+ 27.Final.jar commons-collections-3.2.2.jar animal-sniffer-annotation-
+ 1.0.jar commons-io-2.4.jar jettison-1.3.7.jar spring-cloud-starter-ar
+ chaius-1.2.3.RELEASE.jar ribbon-core-2.2.0.jar netty-handler-4.0.27.F
+ inal.jar jackson-dataformat-cbor-2.8.1.jar hystrix-metrics-event-stre
+ am-1.5.6.jar spring-boot-actuator-1.4.0.RELEASE.jar commons-math-2.2.
+ jar aspectjweaver-1.8.9.jar rxjava-1.1.10.jar slf4j-api-1.7.21.jar sp
+ ring-cloud-starter-feign-1.2.3.RELEASE.jar eureka-core-1.4.12.jar sta
+ x-api-1.0.1.jar ribbon-httpclient-2.2.0.jar stringtemplate-3.2.1.jar 
+ javassist-3.20.0-GA.jar commons-lang-2.6.jar spring-security-rsa-1.0.
+ 3.RELEASE.jar governator-1.12.10.jar spring-aop-4.3.2.RELEASE.jar com
+ mons-jxpath-1.3.jar ribbon-2.2.0.jar jackson-annotations-2.8.1.jar se
+ rvo-core-0.10.1.jar antlr-runtime-3.4.jar jcl-over-slf4j-1.7.21.jar s
+ pring-boot-starter-1.4.0.RELEASE.jar xstream-1.4.9.jar zuul-core-1.3.
+ 0.jar rxnetty-0.4.9.jar snakeyaml-1.17.jar woodstox-core-asl-4.4.1.ja
+ r jackson-module-afterburner-2.7.5.jar jackson-core-2.8.1.jar commons
+ -lang3-3.1.jar tomcat-embed-el-8.5.4.jar unbescape-1.1.0.RELEASE.jar 
+ angularjs-1.3.15.jar
+Main-Class: com.hnwu.ui.UiApplication
+

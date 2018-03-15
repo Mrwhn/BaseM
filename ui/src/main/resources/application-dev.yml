@@ -1,0 +1,7 @@
+server:
+  port: 8787
+#  ssl:
+#    key-store: .keystore
+#    key-store-password: wuhuinan
+#    key-store-type: JKS
+#    key-alias: whn

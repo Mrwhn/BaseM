@@ -1,0 +1,23 @@
+server:
+  port: 8000
+  context-path: /blog
+
+spring:
+  datasource:
+    url: ${datasource.url}
+    username: ${datasource.username}
+    password: ${datasource.password}
+    driver-class-name: ${datasource.driverClassName}
+
+logging:
+  pattern:
+    console: "%d - %msg%n"
+#  path:
+    file:
+    level:
+      com.hnwu: debug
+
+mybatis:
+  type-aliases-package: com.hnwu.blog
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  config-location: classpath:mybatis/mybatis-config.xml
