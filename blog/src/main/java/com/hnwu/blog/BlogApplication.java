@@ -7,6 +7,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * BLOG项目启动类
+ * 开启服务发现
  * Created by 吴会楠 on 2017/12/5.
  */
 @SpringBootApplication
@@ -15,6 +16,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @MapperScan(value = {"com.hnwu.blog.self.mapper","com.hnwu.blog.rbac.*.mapper"})
 public class BlogApplication {
     public static void main(String[] args) {
+
         SpringApplication.run(BlogApplication.class, args);
     }
  }
